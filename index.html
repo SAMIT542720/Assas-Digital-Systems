@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assas Digital Systems - Premier Tech Solutions in Chad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-code"></i>
+                <span>Assas Digital Systems</span>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <div class="loading-text">Initializing Digital Excellence...</div>
+        </div>
+    </div>
+    
+    <!-- Scroll Progress -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <div class="language-switcher" role="group" aria-label="Language switcher">
+        <button type="button" class="language-btn active" data-lang="en">EN</button>
+        <button type="button" class="language-btn" data-lang="fr">FR</button>
+        <button type="button" class="language-btn" data-lang="ar">AR</button>
+    </div>
+    
+    <!-- WhatsApp Float Button -->
+    <div id="whatsapp-float" class="whatsapp-float">
+        <div class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="whatsapp-tooltip">Chat with us on WhatsApp</div>
+    </div>
+    
+    <!-- Navigation -->
+    <header class="modern-header">
+        <!-- Floating Dock Navigation -->
+        <nav class="dock-nav" id="dock-nav">
+            <div class="dock-container">
+                <div class="dock-item logo-dock">
+                    <div class="dock-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="dock-label">Assas Digital Systems</span>
+                </div>
+                <div class="dock-separator"></div>
+                <a href="#home" class="dock-item active">
+                    <div class="dock-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <span class="dock-label">Home</span>
+                </a>
+                <a href="#about" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="dock-label">About</span>
+                </a>
+                <a href="#services" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <span class="dock-label">Services</span>
+                </a>
+                <a href="#portfolio" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <span class="dock-label">Portfolio</span>
+                </a>
+                <a href="#team" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span class="dock-label">Team</span>
+                </a>
+                <a href="#blog" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <span class="dock-label">Blog</span>
+                </a>
+                <a href="#contact" class="dock-item">
+                    <div class="dock-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <span class="dock-label">Contact</span>
+                </a>
+                <div class="dock-separator"></div>
+                <div class="dock-item theme-switch">
+                    <div class="dock-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <span class="dock-label">Theme</span>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Mobile Top Bar -->
+        <div class="mobile-header">
+            <div class="mobile-brand">
+                <i class="fas fa-code"></i>
+                <span>Assas Digital Systems</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Slide Menu -->
+        <div class="mobile-slide-menu" id="mobile-slide-menu">
+            <div class="mobile-menu-content">
+                <div class="mobile-menu-header">
+                    <div class="mobile-menu-logo">
+                        <i class="fas fa-code"></i>
+                        <span>Assas Digital Systems</span>
+                    </div>
+                    <button class="mobile-menu-close" id="mobile-menu-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <nav class="mobile-menu-nav">
+                    <a href="#home" class="mobile-menu-item">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#about" class="mobile-menu-item">
+                        <i class="fas fa-user-friends"></i>
+                        <span>About</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#services" class="mobile-menu-item">
+                        <i class="fas fa-tools"></i>
+                        <span>Services</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#portfolio" class="mobile-menu-item">
+                        <i class="fas fa-layer-group"></i>
+                        <span>Portfolio</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#team" class="mobile-menu-item">
+                        <i class="fas fa-users"></i>
+                        <span>Team</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#blog" class="mobile-menu-item">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                    <a href="#contact" class="mobile-menu-item">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Contact</span>
+                        <div class="mobile-item-arrow"></div>
+                    </a>
+                </nav>
+                <div class="mobile-menu-footer">
+                    <p>N'Djamena, Chad</p>
+                    <p>+235 66 XX XX XX</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-new">
+        <div class="hero-background">
+            <div class="mesh-gradient"></div>
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+            <div class="particles-container" id="particles"></div>
+        </div>
+        
+        <div class="hero-content-wrapper">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>N'Djamena, Chad</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Transforming</span>
+                    <span class="title-line highlight">Africa's Digital</span>
+                    <span class="title-line">Landscape</span>
+                </h1>
+                <p class="hero-description">
+                    We craft cutting-edge web and mobile applications that empower businesses across Central Africa. From concept to deployment, we turn your digital vision into reality.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Success</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <button class="cta-primary">
+                        <span>Start Your Project</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="cta-secondary">
+                        <i class="fas fa-play"></i>
+                        <span>Watch Demo</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="hero-visual">
+                    <div class="central-device">
+                        <div class="device-screen">
+                            <div class="screen-content">
+                                <div class="code-lines">
+                                    <div class="code-line"></div>
+                                    <div class="code-line"></div>
+                                    <div class="code-line short"></div>
+                                    <div class="code-line"></div>
+                                    <div class="code-line short"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Technology Cards -->
+                    <div class="hero-tech-cards">
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <span class="tech-card-name">AWS</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <span class="tech-card-name">.NET MVC</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <span class="tech-card-name">Flutter</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="tech-card-name">React</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="tech-card-name">Node.js</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="tech-card-name">MongoDB</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <span class="tech-card-name">Docker</span>
+                        </div>
+                        
+                        <div class="tech-card-floating">
+                            <div class="tech-card-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="tech-card-name">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <!-- <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>-->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2>Pioneering Technology in Central Africa</h2>
+                    <p>Based in the heart of N'Djamena, Assas Digital Systems is at the forefront of Chad's digital transformation. We combine global technology standards with deep understanding of local markets to deliver exceptional digital solutions.</p>
+                    <p>Our team of expert developers and designers work with businesses across Chad and Central Africa to create powerful web platforms and mobile applications that drive growth and innovation in our rapidly evolving digital landscape.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            Projects Completed
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            Happy Clients
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            Years Experience
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            Client Satisfaction
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal">
+                    <div class="chad-map">
+                        <div style="text-align: center;">
+                            <i class="fas fa-map-marker-alt location-pin"></i>
+                            <h3 style="margin-top: 60px;">N'Djamena, Chad</h3>
+                            <p>Serving Central Africa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>What We Offer</span>
+                </span>
+                <h2>Comprehensive Digital<br><span class="accent-text">Solutions</span></h2>
+                <p>From concept to deployment, we provide end-to-end technology services tailored for African businesses, combining global standards with local market expertise.</p>
+            </div>
+            
+            <div class="services-layout">
+                <!-- Primary Services Grid -->
+                <div class="services-grid-enhanced">
+                    <div class="service-card-modern reveal" data-service="web">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-bg"></div>
+                                <div class="service-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="service-badge">Most Popular</div>
+                            </div>
+                            <div class="service-meta">
+                                <h3>Web Development</h3>
+                                <p class="service-tagline">Powerful digital presence for your business</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-content">
+                            <p class="service-description">Custom websites and web applications built with cutting-edge technology to establish your strong online presence and drive business growth.</p>
+                            
+                            <div class="service-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <span>Mobile-First Design</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <span>SEO Optimized</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </div>
+                                    <span>Secure & Fast</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-features-advanced">
+                                <h4>Key Features:</h4>
+                                <ul class="features-list">
+                                    <li><i class="fas fa-check-circle"></i>Responsive Design</li>
+                                    <li><i class="fas fa-check-circle"></i>E-commerce Solutions</li>
+                                    <li><i class="fas fa-check-circle"></i>CMS Development</li>
+                                    <li><i class="fas fa-check-circle"></i>Multi-language Support</li>
+                                </ul>
+                            </div>
+                            
+                            <button class="service-cta">
+                                <span>Get Started</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card-modern reveal" data-service="mobile">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-bg"></div>
+                                <div class="service-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                            </div>
+                            <div class="service-meta">
+                                <h3>Mobile App Development</h3>
+                                <p class="service-tagline">Native & cross-platform applications</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-content">
+                            <p class="service-description">Native and cross-platform mobile applications that deliver exceptional user experiences across iOS and Android devices.</p>
+                            
+                            <div class="service-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fab fa-apple"></i>
+                                    </div>
+                                    <span>iOS & Android</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-sync"></i>
+                                    </div>
+                                    <span>Cross-Platform</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-wifi"></i>
+                                    </div>
+                                    <span>Offline Support</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-features-advanced">
+                                <h4>Key Features:</h4>
+                                <ul class="features-list">
+                                    <li><i class="fas fa-check-circle"></i>React Native & Flutter</li>
+                                    <li><i class="fas fa-check-circle"></i>App Store Optimization</li>
+                                    <li><i class="fas fa-check-circle"></i>Push Notifications</li>
+                                    <li><i class="fas fa-check-circle"></i>Analytics Integration</li>
+                                </ul>
+                            </div>
+                            
+                            <button class="service-cta">
+                                <span>Get Started</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card-modern reveal" data-service="cloud">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-bg"></div>
+                                <div class="service-icon">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                                <div class="service-badge trending">Trending</div>
+                            </div>
+                            <div class="service-meta">
+                                <h3>Digital Transformation</h3>
+                                <p class="service-tagline">Complete business modernization</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-content">
+                            <p class="service-description">Complete digital solutions to modernize your business operations and improve efficiency across all departments and processes.</p>
+                            
+                            <div class="service-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                    </div>
+                                    <span>Cloud Migration</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-robot"></i>
+                                    </div>
+                                    <span>Automation</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-chart-bar"></i>
+                                    </div>
+                                    <span>Analytics</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-features-advanced">
+                                <h4>Key Features:</h4>
+                                <ul class="features-list">
+                                    <li><i class="fas fa-check-circle"></i>Cloud Infrastructure</li>
+                                    <li><i class="fas fa-check-circle"></i>Process Automation</li>
+                                    <li><i class="fas fa-check-circle"></i>Data Analytics</li>
+                                    <li><i class="fas fa-check-circle"></i>Security Implementation</li>
+                                </ul>
+                            </div>
+                            
+                            <button class="service-cta">
+                                <span>Get Started</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card-modern reveal" data-service="consulting">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-bg"></div>
+                                <div class="service-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                            </div>
+                            <div class="service-meta">
+                                <h3>Consulting & Support</h3>
+                                <p class="service-tagline">Strategic guidance & ongoing support</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-content">
+                            <p class="service-description">Strategic technology consulting and ongoing support to ensure your digital initiatives deliver maximum value and ROI.</p>
+                            
+                            <div class="service-highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <span>Strategy</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-headset"></i>
+                                    </div>
+                                    <span>24/7 Support</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <span>Training</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service-features-advanced">
+                                <h4>Key Features:</h4>
+                                <ul class="features-list">
+                                    <li><i class="fas fa-check-circle"></i>Technology Strategy</li>
+                                    <li><i class="fas fa-check-circle"></i>Project Management</li>
+                                    <li><i class="fas fa-check-circle"></i>Team Training</li>
+                                    <li><i class="fas fa-check-circle"></i>Performance Optimization</li>
+                                </ul>
+                            </div>
+                            
+                            <button class="service-cta">
+                                <span>Get Started</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Process Section -->
+                <div class="service-process reveal">
+                    <div class="process-header">
+                        <h3>Our Development Process</h3>
+                        <p>Streamlined workflow ensuring quality delivery and client satisfaction</p>
+                    </div>
+                    
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h4>Discovery & Planning</h4>
+                                <p>We analyze your requirements and create a comprehensive project roadmap.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h4>Design & Prototype</h4>
+                                <p>Creating user-friendly designs and interactive prototypes for validation.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h4>Development & Testing</h4>
+                                <p>Building robust solutions with rigorous testing and quality assurance.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h4>Deployment & Support</h4>
+                                <p>Launching your solution and providing ongoing maintenance and support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Stats -->
+                <div class="service-stats reveal">
+                    <div class="stats-container">
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number">48hrs</span>
+                                <span class="stat-label">Average Response Time</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Expert Developers</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Project Success Rate</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number">3 months</span>
+                                <span class="stat-label">Free Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span>Success Stories</span>
+                </span>
+                <h2>Featured Projects<br><span class="accent-text">& Case Studies</span></h2>
+                <p>Real-world solutions that drive business growth and digital transformation across Central Africa.</p>
+            </div>
+            
+            <div class="portfolio-layout">
+                <!-- Featured Project Highlight -->
+                <div class="featured-project reveal">
+                    <div class="project-preview">
+                        <div class="preview-screen">
+                            <div class="screen-header">
+                                <div class="screen-controls">
+                                    <span class="control red"></span>
+                                    <span class="control yellow"></span>
+                                    <span class="control green"></span>
+                                </div>
+                                <div class="url-bar">assasdigital-ecommerce.com</div>
+                            </div>
+                            <div class="screen-content">
+                                <div class="app-interface">
+                                    <div class="interface-header">
+                                        <i class="fas fa-store"></i>
+                                        <span>E-Commerce Platform</span>
+                                    </div>
+                                    <div class="interface-body">
+                                        <div class="data-row"></div>
+                                        <div class="data-row short"></div>
+                                        <div class="data-row"></div>
+                                        <div class="chart-area">
+                                            <div class="chart-bar" style="height: 60%"></div>
+                                            <div class="chart-bar" style="height: 80%"></div>
+                                            <div class="chart-bar" style="height: 45%"></div>
+                                            <div class="chart-bar" style="height: 90%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-bubble">
+                                <span class="stat-value">300%</span>
+                                <span class="stat-label">Sales Growth</span>
+                            </div>
+                            <div class="stat-bubble">
+                                <span class="stat-value">50K+</span>
+                                <span class="stat-label">Users</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-category">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>E-Commerce Solution</span>
+                        </div>
+                        <h3>Chad's Leading Online Marketplace</h3>
+                        <p>Revolutionary e-commerce platform that transformed local retail by connecting buyers and sellers across Chad, featuring advanced payment integration and inventory management optimized for African markets.</p>
+                        
+                        <div class="project-features">
+                            <div class="feature-highlight">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile-First Design</span>
+                            </div>
+                            <div class="feature-highlight">
+                                <i class="fas fa-credit-card"></i>
+                                <span>Local Payment Integration</span>
+                            </div>
+                            <div class="feature-highlight">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Smart Delivery System</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-stack-advanced">
+                            <div class="tech-group">
+                                <span class="tech-type">Frontend:</span>
+                                <div class="tech-badges">
+                                    <span class="tech-badge-pro react">React</span>
+                                    <span class="tech-badge-pro">TypeScript</span>
+                                </div>
+                            </div>
+                            <div class="tech-group">
+                                <span class="tech-type">Backend:</span>
+                                <div class="tech-badges">
+                                    <span class="tech-badge-pro node">Node.js</span>
+                                    <span class="tech-badge-pro">MongoDB</span>
+                                    <span class="tech-badge-pro dotnet">.NET MVC</span>
+                                </div>
+                            </div>
+                            <div class="tech-group">
+                                <span class="tech-type">Payment:</span>
+                                <div class="tech-badges">
+                                    <span class="tech-badge-pro stripe">Stripe</span>
+                                    <span class="tech-badge-pro">Mobile Money</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <button class="project-cta primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>View Case Study</span>
+                            </button>
+                            <button class="project-cta secondary">
+                                <i class="fas fa-code"></i>
+                                <span>Technical Details</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid-modern">
+                    <div class="project-card reveal" data-category="mobile">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">Mobile App</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Telemedicine Platform</h4>
+                            <p>Connecting rural communities with healthcare providers through innovative mobile technology.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Completed 2025</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">10K+ patients served</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">React Native</span>
+                                <span class="tech-pill">Firebase</span>
+                                <span class="tech-pill">WebRTC</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-category="web">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">Web Platform</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Education Management</h4>
+                            <p>Comprehensive school management system with student tracking and parent engagement features.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Completed 2024</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">15 schools connected</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">Vue.js</span>
+                                <span class="tech-pill">Laravel</span>
+                                <span class="tech-pill">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-category="enterprise">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">Enterprise Solution</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Business Intelligence</h4>
+                            <p>Real-time analytics dashboard with advanced reporting and data visualization capabilities.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Completed 2025</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">5 enterprises using</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">Angular</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">.NET MVC</span>
+                                <span class="tech-pill">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-category="logistics">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">Logistics App</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Fleet Management</h4>
+                            <p>Advanced logistics platform optimized for Central African delivery challenges and infrastructure.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Completed 2024</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">200+ vehicles tracked</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">Flutter</span>
+                                <span class="tech-pill">Django</span>
+                                <span class="tech-pill">Maps API</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-category="social">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">Social Platform</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Community Network</h4>
+                            <p>Social networking platform designed to connect local communities and facilitate knowledge sharing.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-clock"></i>
+                                    <span>In Development</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">Beta testing phase</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">Next.js</span>
+                                <span class="tech-pill">GraphQL</span>
+                                <span class="tech-pill">Prisma</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-category="fintech">
+                        <div class="card-image">
+                            <div class="image-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-coins"></i>
+                                </div>
+                            </div>
+                            <div class="project-type">FinTech Solution</div>
+                        </div>
+                        <div class="card-content">
+                            <h4>Digital Payments</h4>
+                            <p>Secure mobile payment solution tailored for the Central African financial ecosystem.</p>
+                            <div class="card-meta">
+                                <div class="completion-status">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Completed 2025</span>
+                                </div>
+                                <div class="project-impact">
+                                    <span class="impact-metric">25K+ transactions</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-pill">React Native</span>
+                                <span class="tech-pill">Node.js</span>
+                                <span class="tech-pill">.NET MVC</span>
+                                <span class="tech-pill">Blockchain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Stats -->
+                <div class="portfolio-stats reveal">
+                    <div class="stats-content">
+                        <div class="stats-header">
+                            <h3>Project Impact Metrics</h3>
+                            <p>Measurable results from our digital solutions</p>
+                        </div>
+                        <div class="stats-grid">
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="metric-value">50+</div>
+                                <div class="metric-label">Projects Delivered</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="metric-value">100K+</div>
+                                <div class="metric-label">Users Impacted</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="metric-value">250%</div>
+                                <div class="metric-label">Avg. Growth</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="metric-value">100%</div>
+                                <div class="metric-label">Satisfaction Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-mastery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-code"></i>
+                    <span>Our Tech Arsenal</span>
+                </span>
+                <h2>Cutting-Edge Technologies<br><span class="accent-text">We Master</span></h2>
+                <p>From frontend frameworks to cloud infrastructure, we leverage the most powerful and modern technologies to build exceptional digital solutions.</p>
+            </div>
+            
+            <div class="tech-showcase">
+                <div class="tech-categories">
+                    <!-- Frontend Technologies -->
+                    <div class="tech-category reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Frontend</h3>
+                            <p>Modern UI Frameworks</p>
+                        </div>
+                        <div class="tech-items">
+                            <div class="tech-badge">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-vuejs"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-angular"></i>
+                                <span>Angular</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Technologies -->
+                    <div class="tech-category reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>Backend</h3>
+                            <p>Robust Server Solutions</p>
+                        </div>
+                        <div class="tech-items">
+                            <div class="tech-badge">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-microsoft"></i>
+                                <span>.NET MVC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Technologies -->
+                    <div class="tech-category reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Mobile</h3>
+                            <p>Cross-Platform Apps</p>
+                        </div>
+                        <div class="tech-items">
+                            <div class="tech-badge">
+                                <i class="fas fa-mobile"></i>
+                                <span>React Native</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Flutter</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-apple"></i>
+                                <span>iOS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database & Cloud -->
+                    <div class="tech-category reveal">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3>Infrastructure</h3>
+                            <p>Cloud & Database</p>
+                        </div>
+                        <div class="tech-items">
+                            <div class="tech-badge">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tech-badge">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Technology Spotlight -->
+                <div class="tech-spotlight reveal">
+                    <div class="spotlight-content">
+                        <div class="spotlight-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Next-Gen Solutions</h3>
+                        <p>We stay ahead of the curve by continuously adopting emerging technologies and best practices to deliver future-ready applications.</p>
+                        <div class="spotlight-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>AI Integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Microservices Architecture</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>DevOps & CI/CD</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Progressive Web Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-users"></i>
+                    <span>Our Team</span>
+                </span>
+                <h2>Meet the Innovators<br><span class="accent-text">Behind Assas Digital Systems</span></h2>
+                <p>Passionate developers, designers, and strategists working together to transform Chad's digital landscape.</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member reveal" data-member="ceo">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="member-status online"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Samir Ahmed</h3>
+                        <p class="role">CEO & Lead Developer</p>
+                        <p class="bio">Full-stack developer with 8+ years experience. Passionate about bringing Silicon Valley innovation to Central Africa.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">.NET</span>
+                            <span class="skill-tag">Leadership</span>
+                        </div>
+                        <div class="member-fun-fact">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Built his first app at age 15</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member reveal" data-member="cto">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="member-status online"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Fatima Hassan</h3>
+                        <p class="role">CTO & Mobile Architect</p>
+                        <p class="bio">Mobile development expert specializing in Flutter and React Native. Advocates for accessible technology design.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">UX Design</span>
+                        </div>
+                        <div class="member-fun-fact">
+                            <i class="fas fa-rocket"></i>
+                            <span>Speaks 4 languages fluently</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member reveal" data-member="backend">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="member-status away"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Ibrahim Mahamat</h3>
+                        <p class="role">Backend Engineer</p>
+                        <p class="bio">Cloud infrastructure specialist with expertise in scalable backend systems and DevOps practices.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                        <div class="member-fun-fact">
+                            <i class="fas fa-coffee"></i>
+                            <span>Can code for 12 hours straight on coffee</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member reveal" data-member="designer">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="member-status online"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Aisha Deby</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <p class="bio">Creative designer focused on user-centered design and building intuitive digital experiences for African users.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Adobe Suite</span>
+                            <span class="skill-tag">Prototyping</span>
+                        </div>
+                        <div class="member-fun-fact">
+                            <i class="fas fa-palette"></i>
+                            <span>Creates digital art in her free time</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Stats -->
+            <div class="team-stats reveal">
+                <div class="stats-container-team">
+                    <div class="stat-item-team">
+                        <div class="stat-icon-team">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="stat-content-team">
+                            <span class="stat-number-team">15+</span>
+                            <span class="stat-label-team">Team Members</span>
+                        </div>
+                    </div>
+                    <div class="stat-item-team">
+                        <div class="stat-icon-team">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="stat-content-team">
+                            <span class="stat-number-team">25+</span>
+                            <span class="stat-label-team">Years Combined Experience</span>
+                        </div>
+                    </div>
+                    <div class="stat-item-team">
+                        <div class="stat-icon-team">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="stat-content-team">
+                            <span class="stat-number-team">12</span>
+                            <span class="stat-label-team">Tech Certifications</span>
+                        </div>
+                    </div>
+                    <div class="stat-item-team">
+                        <div class="stat-icon-team">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="stat-content-team">
+                            <span class="stat-number-team">100%</span>
+                            <span class="stat-label-team">Passion for Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-blog"></i>
+                    <span>Insights & Updates</span>
+                </span>
+                <h2>Latest from Our<br><span class="accent-text">Tech Blog</span></h2>
+                <p>Stay updated with the latest trends, insights, and case studies from the world of technology and digital transformation.</p>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-post featured reveal">
+                    <div class="post-image">
+                        <div class="post-category">Case Study</div>
+                        <div class="post-date">March 10, 2026</div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h3>How We Transformed Chad's Largest E-commerce Platform</h3>
+                        <p>Deep dive into our 6-month journey building a scalable e-commerce solution that now serves 50,000+ users across Central Africa.</p>
+                        <div class="post-meta">
+                            <div class="author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <span>Samir Ahmed</span>
+                            </div>
+                            <div class="read-time">
+                                <i class="fas fa-clock"></i>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-tags">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">React</span>
+                            <span class="tag">.NET MVC</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            <span>Read Full Case Study</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="blog-post reveal">
+                    <div class="post-image">
+                        <div class="post-category">Tech Trends</div>
+                        <div class="post-date">March 8, 2026</div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h3>Mobile-First Development in Africa: Key Considerations</h3>
+                        <p>Why mobile-first approach is crucial for African markets and how to optimize for low-bandwidth environments.</p>
+                        <div class="post-meta">
+                            <div class="author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <span>Fatima Hassan</span>
+                            </div>
+                            <div class="read-time">
+                                <i class="fas fa-clock"></i>
+                                <span>5 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-tags">
+                            <span class="tag">Mobile</span>
+                            <span class="tag">UX</span>
+                            <span class="tag">Africa</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            <span>Read Article</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="blog-post reveal">
+                    <div class="post-image">
+                        <div class="post-category">Team Spotlight</div>
+                        <div class="post-date">March 5, 2026</div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h3>From Idea to Launch: Our Development Process</h3>
+                        <p>Behind-the-scenes look at how Assas Digital Systems approaches project development, from initial concept to successful deployment.</p>
+                        <div class="post-meta">
+                            <div class="author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <span>Ibrahim Mahamat</span>
+                            </div>
+                            <div class="read-time">
+                                <i class="fas fa-clock"></i>
+                                <span>6 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-tags">
+                            <span class="tag">Process</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Team</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            <span>Read Article</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="blog-cta reveal">
+                <button class="blog-cta-button">
+                    <span>View All Articles</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your digital presence? Let's discuss how we can help your business succeed.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong><br>
+                            N'Djamena, Republic of Chad<br>
+                            Central Africa
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +235 66 XX XX XX<br>
+                            +235 99 XX XX XX
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            info@assasdigital.com<br>
+                            contact@assasdigital.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Working Hours</strong><br>
+                            Monday - Friday: 8:00 - 18:00<br>
+                            Saturday: 9:00 - 15:00
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form reveal">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Assas Digital Systems</h3>
+                    <p>Leading technology company in Chad, dedicated to driving digital transformation across Central Africa through innovative web and mobile solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="#services">Web Development</a>
+                    <a href="#services">Mobile App Development</a>
+                    <a href="#services">Digital Transformation</a>
+                    <a href="#services">Consulting & Support</a>
+                    <a href="#services">E-Commerce Solutions</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#about">About Us</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Career</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> N'Djamena, Chad</p>
+                    <p><i class="fas fa-phone"></i> +235 66 XX XX XX</p>
+                    <p><i class="fas fa-envelope"></i> info@assasdigital.com</p>
+                </div>
+            </div>
+           
+            <div class="footer-bottom">
+                <p>&copy; 2026 Assas Digital Systems. All rights reserved. | Proudly serving Chad and Central Africa</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
