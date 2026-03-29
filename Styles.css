@@ -467,6 +467,11 @@
             flex-direction: column;
             gap: 4px;
             flex-shrink: 0;
+            order: -1;
+        }
+
+        html[dir="rtl"] .mobile-menu-btn {
+            order: 1;
         }
 
         .mobile-menu-btn span {
@@ -3899,11 +3904,79 @@
 
             .about-grid {
                 grid-template-columns: 1fr;
-                gap: 30px;
+                gap: 24px;
+            }
+
+            .about-text {
+                padding: 24px 20px;
+            }
+
+            .about-text h2 {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+            }
+
+            .about-text p {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .chad-map {
+                height: 220px;
             }
 
             .stat-item {
-                padding: 20px;
+                padding: 16px 12px;
+            }
+
+            .stat-number {
+                font-size: 1.8rem;
+            }
+
+            .project-stats {
+                position: static;
+                display: flex;
+                justify-content: center;
+                gap: 12px;
+                margin-top: 12px;
+            }
+
+            .stat-bubble {
+                padding: 10px 14px;
+            }
+
+            .stat-value {
+                font-size: 0.95rem;
+            }
+
+            .portfolio-stats {
+                padding: 28px 16px;
+            }
+
+            .stats-header h3 {
+                font-size: 1.4rem;
+            }
+
+            .stats-header p {
+                font-size: 0.95rem;
+            }
+
+            .metric-icon {
+                width: 52px;
+                height: 52px;
+                border-radius: 14px;
+            }
+
+            .metric-icon i {
+                font-size: 1.3rem;
+            }
+
+            .metric-value {
+                font-size: 1.8rem;
+            }
+
+            .metric-label {
+                font-size: 0.85rem;
             }
 
             .tech-showcase {
@@ -3958,6 +4031,51 @@
         }
 
         @media (max-width: 480px) {
+            .about-text {
+                padding: 18px 14px;
+            }
+
+            .about-text h2 {
+                font-size: 1.5rem;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                margin-top: 1.5rem;
+            }
+
+            .stat-item {
+                padding: 14px 10px;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .metric-card {
+                padding: 16px 10px;
+            }
+
+            .metric-icon {
+                width: 44px;
+                height: 44px;
+                margin-bottom: 12px;
+            }
+
+            .metric-icon i {
+                font-size: 1.1rem;
+            }
+
+            .metric-value {
+                font-size: 1.5rem;
+            }
+
             .tech-categories {
                 grid-template-columns: 1fr;
                 gap: 15px;
